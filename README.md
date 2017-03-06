@@ -24,6 +24,7 @@ The following **additional** features are implemented:
 * [X] Custom Tip Percent
 * [X] Round to Lowest Dollar Amount
 * [X] Round to Highest Dollar Amount
+* [X] Test Cases Doc used for testing functionality of Tippy (see test_cases doc)
 
 ## Video Walkthrough 
 
