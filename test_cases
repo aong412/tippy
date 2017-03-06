@@ -1,0 +1,69 @@
+Test Cases used for checking functionality of Tippy
+
+// Test Case 1 : Zero Bill Any Tip with No High/No Low, High/No Low, No High/Low
+// Bill, Tip %, Tip Calculated = [ 0.00, Any, 0.00 ]
+// Expected Total              = 0.00
+//
+// Test Case 2 : Min Bill Zero|Min Tip with No High/No Low
+// Bill, Tip %, Tip Calculated = [ 0.01, 0.00|0.01, 0.00 ]
+// Expected Total              = 0.01
+//
+// Test Case 3 : Min Bill Zero|Min Tip with High/No Low
+// Bill, Tip %, Tip Calculated = [ 0.01, 0.00|0.01, 0.99 ]
+// Expected Total              = 1.00
+//
+// Test Case 4 : Min Bill Zero|Min Tip with No High/ Low
+// Bill, Tip %, Tip Calculated = [ 0.01, 0.00|0.01, 0.00 ]
+// Expected Total              = 0.01
+//
+// Test Case 5 : Min Bill High|Max Tip with No High/No Low
+// Bill, Tip %, Tip Calculated = [ 0.01, 0.99|1.00, 0.01 ]
+// Expected Total              = 0.02
+//
+// Test Case 6 : Min Bill High|Max Tip with High/No Low
+// Bill, Tip %, Tip Calculated = [ 0.01, 0.99|1.00, 0.99 ]
+// Expected Total              = 1.00
+//
+// Test Case 7 : Min Bill High|Max Tip with No High/ Low
+// Bill, Tip %, Tip Calculated = [ 0.01, 0.99|1.00, 0.01 ]
+// Expected Total              = 0.02
+//
+// Test Case 8 : High Bill Zero Tip with No High/No Low
+// Bill, Tip %, Tip Calculated = [ 0.99, 0.00, 0.00 ]
+// Expected Total              = 0.99
+//
+// Test Case 9 : High Bill Zero Tip with High/No Low
+// Bill, Tip %, Tip Calculated = [ 0.99, 0.00, 0.01 ]
+// Expected Total              = 1.00
+//
+// Test Case 10 : High Bill Zero Tip with No High/ Low
+// Bill, Tip %, Tip Calculated = [ 0.99, 0.00, 0.00 ]
+// Expected Total              = 0.99
+//
+// Test Case 11 : High Bill Min Tip with No High/No Low
+// Bill, Tip %, Tip Calculated = [ 0.99, 0.01, 0.01 ]
+// Expected Total              = 1.00
+//
+// Test Case 12 : High Bill Min Tip with High/No Low
+// Bill, Tip %, Tip Calculated = [ 0.99, 0.01, 0.01 ]
+// Expected Total              = 1.00
+//
+// Test Case 13 : High Bill Min Tip with No High/ Low
+// Bill, Tip %, Tip Calculated = [ 0.99, 0.01, 0.01 ]
+// Expected Total              = 1.00
+//
+// Test Case 14 : High Bill High Tip with No High/No Low
+// Bill, Tip %, Tip Calculated = [ 0.99, 0.99, 0.98 ]
+// Expected Total              = 1.97
+//
+// Test Case 14 : High Bill Max Tip with No High/No Low
+// Bill, Tip %, Tip Calculated = [ 0.99, 1.00, 0.99 ]
+// Expected Total              = 1.98
+//
+// Test Case 15 : High Bill High|Max Tip with High/No Low
+// Bill, Tip %, Tip Calculated = [ 0.99, 0.99|1.00, 1.02 ]
+// Expected Total              = 2.00
+//
+// Test Case 16 : High Bill High|Max Tip with No High/ Low
+// Bill, Tip %, Tip Calculated = [ 0.99, 0.99|1.00, 0.01 ]
+// Expected Total              = 1.00
