@@ -33,5 +33,6 @@ http://imgur.com/a/I6EBf
 
 ## Notes
 
-Lots of formatting issues with Double and getting 2 decimal despite String format "%.2f"\n
+Lots of formatting issues with Double and getting 2 decimal despite String format "%.2f"
+
 Challenges with algorithm to determine rounding to highest and lowest when the bill amount was <$1.00
